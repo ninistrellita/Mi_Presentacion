@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Premium | Dev Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <header class="header">
+        <div class="logo">&lt;<span class="text-gradient">DevPortfolio</span> /&gt;</div>
+        <nav class="nav">
+            <a href="#about">Sobre Mí</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#progress">Mi Avance</a>
+            <a href="#code">Código</a>
+        </nav>
+        <a href="#contact" class="btn-primary">Contacto</a>
+    </header>
+
+    <main>
+        <section class="hero" id="about">
+            <div class="hero-content">
+                <span class="badge">🚀 Desarrollador Frontend en Crecimiento</span>
+                <h1 class="hero-title">Construyendo experiencias digitales <span class="text-gradient">excepcionales & elegantes</span>.</h1>
+                <p class="hero-subtitle">Apasionado por la tecnología, el código limpio y la creación de interfaces modernas con estética oscura y alto rendimiento.</p>
+                <div class="hero-actions">
+                    <a href="#progress" class="btn-primary">Ver Mi Progreso</a>
+                    <a href="#code" class="btn-secondary">Explorar Código</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-header">
+                <h2 class="section-title">Lenguajes & Dominio</h2>
+                <p class="section-subtitle">Tecnologías que aprendo y perfecciono día a día.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Diseños adaptativos, Flexbox, Grid CSS, animaciones avanzadas y arquitectura estética moderna.</p>
+                    <div class="skill-level"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript (ES6+)</h3>
+                    <p>Lógica de programación, manipulación del DOM, eventos, consumo de APIs y desarrollo interactivo.</p>
+                    <div class="skill-level"><span style="width: 75%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Estructuras de datos, lógica de backend, procesamiento de archivos CSV/JSON y automatización.</p>
+                    <div class="skill-level"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Control de versiones, trabajo colaborativo, gestión de ramas y flujos de trabajo profesionales.</p>
+                    <div class="skill-level"><span style="width: 85%;"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="progress">
+            <div class="section-header">
+                <h2 class="section-title">Línea de Tiempo de Aprendizaje</h2>
+                <p class="section-subtitle">Un vistazo a mi trayectoria como aprendiz de programación.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Fase Inicial</span>
+                        <h3>Fundamentos de Lógica & PSeInt</h3>
+                        <p>Comprensión de estructuras de control, bucles, arreglos y desarrollo de algoritmos paso a paso.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Fase 2</span>
+                        <h3>Estructuras Python & Persistencia</h3>
+                        <p>Desarrollo de lógica orientada a datos, manejo de matrices, diccionarios y persistencia con JSON y CSV.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Fase 3</span>
+                        <h3>Maquetación Web Avanzada & CSS</h3>
+                        <p>Creación de maquetas complejas, layouts responsivos con Flexbox/Grid y diseño de temas oscuros elegantes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Fase Actual</span>
+                        <h3>JavaScript Dinámico & Interacciones</h3>
+                        <p>Construcción de aplicaciones web interactivas, reproductores de audio personalizados y componentes dinámicos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="code">
+            <div class="section-header">
+                <h2 class="section-title">Snippet Showcase</h2>
+                <p class="section-subtitle">Una muestra real del código y arquitectura que desarrollo.</p>
+            </div>
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="window-title">main.js — Portfolio Logic</div>
+                </div>
+                <div class="window-body">
+                    <pre><code><span class="code-keyword">const</span> learnerProfile = {
+    name: <span class="code-string">"Desarrollador Web"</span>,
+    role: <span class="code-string">"Frontend Apprentice"</span>,
+    status: <span class="code-string">"Siempre Aprendiendo 🚀"</span>,
+    skills: [<span class="code-string">"HTML5"</span>, <span class="code-string">"CSS3"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"Python"</span>],
+    
+    codeFocus: <span class="code-keyword">function</span>() {
+        <span class="code-keyword">return</span> <span class="code-string">`Creando código limpio, moderno y elegante.`</span>;
+    }
+};
+
+<span class="code-comment">// Inicialización de animaciones e interactividad</span>
+console.log(learnerProfile.codeFocus());</code></pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <p>&copy; 2026 Designed & Built with ❤️ for Digital Excellence.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
